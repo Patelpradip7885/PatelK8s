@@ -4,9 +4,10 @@ metadata:
   name: pod2
 spec:
   containers:
-  - name: k8s-demo
-  image: arjunachari12/k8s-demo
+  - name: afakharany/watcher:latest
+  image: afakharany/watcher:latest
   ports:
-  - name: jodejs-port
-  containers: 3000
+  - name: Ngnix
+   image: Ngnix
+  ports:
   
