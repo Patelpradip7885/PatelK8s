@@ -1,14 +1,12 @@
 apiVersion: v1
-kind: services
+kind: Service
 metadata:
-  name: pod3
-  lables:
-  app: helloword-services
+  name: helloworld-service
 spec:
   ports:
   - port: 31001
-  targetPort: nodejs-port
-  protocol: TCP
+    targetPort: nodejs-port
+    protocol: TCP
   selector:
-    app: helloword
-   type: LoadBalancer 
+     app: helloworld
+  type: LoadBalancer  
