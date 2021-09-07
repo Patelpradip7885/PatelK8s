@@ -8,5 +8,5 @@ spec:
   image: arjunachari12/k8s-demo
   ports:
   - name: jodejs-port
-  containers: 
+  containers: 3000
   
