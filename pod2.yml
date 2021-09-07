@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod2
+  name: pod3
 spec:
   containers:
-  - name: afakharany/watcher:latest
-  image: afakharany/watcher:latest
-  ports:
-  - name: ngnix
-   image: Ngnix
-  ports:
+  - name: webserver
+    image: nginx:latest
+    ports:
+    - containerPort: 80
+  - name: webwatcher
+    image: afakharany/watcher:latest
   
