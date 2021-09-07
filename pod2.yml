@@ -7,7 +7,7 @@ spec:
   - name: afakharany/watcher:latest
   image: afakharany/watcher:latest
   ports:
-  - name: Ngnix
+  - name: ngnix
    image: Ngnix
   ports:
   
